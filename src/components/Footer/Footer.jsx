@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import instagram from "../../img/icons/instagram.svg";
 import twitter from "../../img/icons/twitter.svg";
 import gitHub from "../../img/icons/gitHub.svg";
@@ -10,11 +11,6 @@ const Footer = () => {
       <div className="container">
         <div className="footer__wrapper">
           <ul className="social">
-            {/* <li className="social__item">
-                <a href="#!">
-                  <img src="./img/icons/vk.svg" alt="Link"/>
-                </a>
-              </li> */}
             <li className="social__item">
               <a href="#!">
                 <img src={instagram} alt="Link" />
@@ -37,7 +33,7 @@ const Footer = () => {
             </li>
           </ul>
           <div className="copyright">
-            <p>© 2022 frontend-dev.com</p>
+            <p>© 2023 My-GitHub.com</p>
           </div>
         </div>
       </div>

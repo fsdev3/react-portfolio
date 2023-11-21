@@ -1,6 +1,7 @@
 import React from "react";
+import { nanoid } from "nanoid";
 
-import Project from "../components/Projescts/Project";
+import Project from "../components/Projects/Project";
 import projects from "../helpers/projectList";
 
 const Projects = () => {
@@ -11,7 +12,12 @@ const Projects = () => {
         <ul className="projects">
           {projects.map((project, index) => {
             return (
-              <Project key={index} title={project.title} img={project.img} />
+              <Project
+                key={nanoid()}
+                title={project.title}
+                img={project.img}
+                index={index}
+              />
             );
           })}
         </ul>
