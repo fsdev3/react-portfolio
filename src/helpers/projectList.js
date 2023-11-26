@@ -29,14 +29,6 @@ const projects = [
 
     githubLink: "https://zemfira1.github.io/bookshelf-project-team-4/",
   },
-  {
-    title: "BookShelf - team project",
-    skills: "HTML, CSS, JavaScript, REST-API",
-    img: project03,
-    imgBig: project03Big,
-
-    githubLink: "",
-  },
 ];
 
 export default projects;
