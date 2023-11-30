@@ -33,7 +33,17 @@ const Footer = () => {
             </li>
           </ul>
           <div className="copyright">
-            <p>© 2023 My-GitHub.com</p>
+            <p>
+              © 2023
+              <a
+                className="copyright"
+                href="https://github.com/fsdev3"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub repo
+              </a>
+            </p>
           </div>
         </div>
       </div>
