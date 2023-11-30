@@ -34,9 +34,8 @@ const Footer = () => {
           </ul>
           <div className="copyright">
             <p>
-              © 2023
+              © 2023 &nbsp;
               <a
-                className="copyright"
                 href="https://github.com/fsdev3"
                 target="_blank"
                 rel="noreferrer"
